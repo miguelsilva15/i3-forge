@@ -1,0 +1,73 @@
+* {
+    background-color: transparent;
+    text-color:       rgba ( 255, 255, 255, 90 % );
+}
+
+window {
+    width:            820px;
+    background-color: rgba ( 30, 30, 32, 90 % );
+    border-color:     rgba ( 255, 255, 255, 10 % );
+    border:           1px;
+    border-radius:    14px;
+    padding:          0px;
+    location:         north;
+    y-offset:         120px;
+}
+
+mainbox {
+    background-color: transparent;
+    padding:          10px 0px;
+    spacing:          0px;
+    children:         [ inputbar, listview ];
+}
+
+inputbar {
+    background-color: transparent;
+    padding:          14px 20px 12px 20px;
+    spacing:          0px;
+    children:         [ entry ];
+}
+
+entry {
+    background-color:  transparent;
+    placeholder:       "Search…";
+    placeholder-color: rgba ( 255, 255, 255, 35 % );
+    text-color:        rgba ( 255, 220, 50, 95 % );
+    font:              "Noto Serif 13";
+    padding:           0px;
+    cursor:            text;
+}
+
+listview {
+    background-color: transparent;
+    padding:          4px 8px 8px 8px;
+    spacing:          2px;
+    lines:            8;
+    scrollbar:        false;
+    dynamic:          true;
+    border:           0px;
+}
+
+element {
+    background-color: transparent;
+    padding:          9px 12px;
+    border-radius:    8px;
+    orientation:      horizontal;
+    cursor:           pointer;
+    border:           0px;
+}
+
+element selected.normal {
+    background-color: rgba ( 255, 255, 255, 10 % );
+}
+
+element-text {
+    background-color: transparent;
+    text-color:       inherit;
+    vertical-align:   0.5;
+    font:             "Noto Serif 11";
+}
+
+element-icon {
+    size: 0px;
+}

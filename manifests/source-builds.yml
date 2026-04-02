@@ -1,0 +1,30 @@
+# source-builds.yml — tools built from source
+# Fill in git_url and build_commands for each entry.
+#
+# Example:
+# - name: picom
+#   git_url: https://github.com/yshui/picom.git
+#   build_commands:
+#     - meson setup --buildtype=release build
+#     - ninja -C build
+#     - sudo ninja -C build install
+#   binary_check: picom --version
+#   dependencies:
+#     - meson
+#     - ninja-build
+
+builds:
+  - name: betterlockscreen
+    location: /usr/local/bin
+    git_url: ""  # TODO: fill in
+    build_commands: []  # TODO: fill in
+    binary_check: "betterlockscreen --version"
+    dependencies: []  # TODO: fill in
+
+  - name: starship
+    location: /usr/local/bin
+    git_url: ""  # TODO: fill in
+    build_commands: []  # TODO: fill in
+    binary_check: "starship --version"
+    dependencies: []  # TODO: fill in
+

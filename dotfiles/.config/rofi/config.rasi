@@ -1,0 +1,14 @@
+configuration {
+    modi:           "drun,run,window";
+    show-icons:     false;
+    font:           "Inter 13";
+    drun-display-format: "{name}";
+    display-drun:   "";
+    display-run:    "";
+    display-window: "";
+    sidebar-mode:   false;
+    drun-match-fields: "name,generic,exec,categories";
+    drun-appdir: ["/var/lib/flatpak/exports/share/applications", "/usr/share/applications"];
+}
+
+@theme "~/.config/rofi/starlight.rasi"

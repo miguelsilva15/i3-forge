@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/msilva/Downloads/beautiful-galactic-core-milky-way-with-rho-ophiuchi-cloud-complex-long-exposure-photograph.jpg' 

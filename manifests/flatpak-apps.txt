@@ -1,0 +1,3 @@
+com.spotify.Client	flathub
+io.dbeaver.DBeaverCommunity	flathub
+md.obsidian.Obsidian	flathub

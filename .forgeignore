@@ -1,0 +1,24 @@
+# .forgeignore — patterns for dotfiles to skip during discovery
+
+# Secrets and credentials
+.ssh/*
+.gnupg/*
+.aws/*
+.config/gh/hosts.yml
+
+# Browser data (too large, synced via browser account)
+.config/chromium*
+.config/google-chrome*
+.mozilla/*
+
+# Caches and state
+.config/*/Cache*
+.config/*/cache*
+.config/*/GPUCache*
+.local/*
+.cache/*
+
+# Desktop environment state
+.config/dconf/*
+.config/pulse/*
+.config/pipewire/*

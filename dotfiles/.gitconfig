@@ -1,0 +1,7 @@
+[user]
+	name = Miguel Silva
+	email = mig.silva15@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim

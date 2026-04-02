@@ -1,0 +1,10 @@
+code
+docker-ce-stable
+fedora
+fedora-cisco-openh264
+google-chrome
+rpmfusion-free
+rpmfusion-free-updates
+rpmfusion-nonfree
+rpmfusion-nonfree-updates
+updates

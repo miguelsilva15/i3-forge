@@ -1,0 +1,131 @@
+# ── Desktop Environment ──────────────────────────────────────────────────────
+i3
+i3lock
+i3status
+polybar
+rofi
+dmenu
+dunst
+picom
+feh
+azote
+lxappearance
+xset
+xsettingsd
+xclip
+xfce-polkit
+dex-autostart
+lightdm
+lightdm-gtk
+lightdm-gtk-greeter-settings
+slick-greeter
+brightnessctl
+playerctl
+
+# ── Theming ──────────────────────────────────────────────────────────────────
+arc-theme
+papirus-icon-theme
+fontawesome4-fonts
+aajohan-comfortaa-fonts
+
+# ── Terminal & Shell ─────────────────────────────────────────────────────────
+kitty
+zsh
+bash-completion
+bash-color-prompt
+fzf
+navi
+
+# ── Apps ─────────────────────────────────────────────────────────────────────
+firefox
+google-chrome-stable
+Thunar
+code
+conky
+copyq
+flameshot
+mousepad
+gnome-disk-utility
+mediawriter
+volumeicon
+network-manager-applet
+pavucontrol
+pamixer
+blueman
+htop
+tree
+
+# ── Dev Tools ────────────────────────────────────────────────────────────────
+git
+gcc
+autoconf
+automake
+docker-ce
+docker-ce-cli
+docker-compose-plugin
+containerd.io
+
+# ── Dev Libraries ────────────────────────────────────────────────────────────
+bzip2-devel
+cairo-devel
+giflib-devel
+libev-devel
+libffi-devel
+libjpeg-turbo-devel
+libxkbcommon-devel
+libxkbcommon-x11-devel
+openssl-devel
+pam-devel
+readline-devel
+sqlite-devel
+xcb-util-image-devel
+xcb-util-xrm-devel
+xz-devel
+zlib-ng-compat-devel
+
+# ── Media ────────────────────────────────────────────────────────────────────
+ffmpeg
+libheif-freeworld
+gstreamer1-plugin-libav
+gstreamer1-plugins-bad-freeworld
+gstreamer1-plugins-good
+gstreamer1-plugins-good-extras
+gstreamer1-plugins-ugly
+
+# ── CLI Utilities ────────────────────────────────────────────────────────────
+wget2-wget
+curl
+rsync
+lrzsz
+nmap-ncat
+dos2unix
+minicom
+compsize
+plocate
+lm_sensors
+lsof
+whois
+
+# ── Printing ─────────────────────────────────────────────────────────────────
+cups
+cups-browsed
+cups-filters
+hplip
+gutenprint
+gutenprint-cups
+system-config-printer
+
+# ── Networking ───────────────────────────────────────────────────────────────
+samba-client
+nfs-utils
+openssh-server
+
+# ── Audio ────────────────────────────────────────────────────────────────────
+pipewire-alsa
+pipewire-pulseaudio
+pipewire-gstreamer
+wireplumber
+
+# ── RPM Fusion ───────────────────────────────────────────────────────────────
+rpmfusion-free-release
+rpmfusion-nonfree-release
